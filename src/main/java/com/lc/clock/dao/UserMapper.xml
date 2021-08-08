@@ -9,13 +9,13 @@
     <result column="nickname" jdbcType="VARCHAR" property="nickname" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="grade" jdbcType="INTEGER" property="grade" />
-    <result column="alltime" jdbcType="INTEGER" property="alltime" />
+    <result column="allTime" jdbcType="INTEGER" property="allTime" />
     <result column="online" jdbcType="INTEGER" property="online" />
     <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
     <result column="username" jdbcType="VARCHAR" property="username" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, avatar, create_time, grade, nickname, password, role, update_time, username, alltime, online
+    id, avatar, create_time, grade, nickname, password, role, update_time, username, allTime, online
   </sql>
   <insert id="insertSelective" parameterType="com.lc.clock.pojo.User">
     insert into t_user
@@ -126,15 +126,15 @@
     insert into t_user (id, avatar, create_time,
                         email, nickname, password,
                         role, update_time, username,
-                        online,alltime,grade
+                        online,allTime,grade
     )
     values (#{id,jdbcType=BIGINT}, #{avatar,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
             #{email,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
             #{role,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, #{username,jdbcType=VARCHAR},
-            #{grade,jdbcType=INTEGER},#{online,jdbcType=INTEGER},#{alltime,jdbcType=INTEGER}
+            #{grade,jdbcType=INTEGER},#{online,jdbcType=INTEGER},#{allTime,jdbcType=INTEGER}
            )
   </insert>
-  <delete id="deleteByNickName" parameterType="java.lang.String">
+  <delete id="deleteUser" parameterType="java.lang.String">
     delete from t_user
     where nickname = #{nickname,jdbcType=VARCHAR}
   </delete>
@@ -155,5 +155,11 @@
     <include refid="Base_Column_List" />
     from t_user
     where nickname = #{nickname,jdbcType=VARCHAR}
+  </select>
+  <select id="findByGrade" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+    where grade = #{grade,jdbcType=INTEGER}
   </select>
 </mapper>

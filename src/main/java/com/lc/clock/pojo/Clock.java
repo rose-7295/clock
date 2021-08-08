@@ -30,4 +30,8 @@ public class Clock {
     private BigDecimal satTime;
 
     private BigDecimal sunTime;
+
+    public Clock(String nickname) {
+        this.nickname = nickname;
+    }
 }

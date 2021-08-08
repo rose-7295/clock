@@ -4,6 +4,8 @@ import com.lc.clock.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Mapper
 @Repository
 public interface UserMapper {
@@ -17,11 +19,14 @@ public interface UserMapper {
     int addUser(User user);
 
     //删除用户
-    int deleteByNickName(String nickname);
+    int deleteUser(String nickname);
 
     //查询用户
     User selectByNickName(String nickname);
 
     //更新用户
     int updateUser(User user);
+
+    //根据年级查询用户
+    List<User> findByGrade(Integer grade);
 }

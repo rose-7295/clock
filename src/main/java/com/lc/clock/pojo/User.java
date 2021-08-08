@@ -26,7 +26,7 @@ public class User {
 
     private String avatar;
 
-    private BigDecimal alltime;
+    private BigDecimal allTime;
 
     private Integer online;
 }
