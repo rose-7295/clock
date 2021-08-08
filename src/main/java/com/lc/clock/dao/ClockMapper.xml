@@ -144,7 +144,7 @@
 
   <!--以上为自动生成，以下为项目所需-->
 
-  <update id="updateClockByNickName" parameterType="com.lc.clock.pojo.Clock">
+  <update id="updateClockByNickName" parameterType="java.lang.String">
     update t_clock
     set nickname = #{nickname,jdbcType=VARCHAR},
         start_time = #{startTime,jdbcType=TIMESTAMP},
@@ -157,7 +157,7 @@
         fri_time = #{friTime,jdbcType=DECIMAL},
         sat_time = #{satTime,jdbcType=DECIMAL},
         sun_time = #{sunTime,jdbcType=DECIMAL}
-    where id = #{id,jdbcType=BIGINT}
+    where nickname = #{nickname,jdbcType=VARCHAR}
   </update>
   <insert id="addClock" parameterType="com.lc.clock.pojo.Clock">
     insert into t_clock (id, nickname, start_time,
@@ -175,6 +175,6 @@
     select
     <include refid="Base_Column_List" />
     from t_clock
-    where id = #{id,jdbcType=BIGINT}
+    where nickname = #{nickname,jdbcType=VARCHAR}
   </select>
 </mapper>

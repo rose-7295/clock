@@ -19,28 +19,10 @@
     id, nickname, start_time, end_time, clock_time, mon_time, tue_time, wed_time, thu_time, 
     fri_time, sat_time, sun_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from t_clock
-    where id = #{id,jdbcType=BIGINT}
-  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from t_clock
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.lc.clock.pojo.Clock">
-    insert into t_clock (id, nickname, start_time, 
-      end_time, clock_time, mon_time, 
-      tue_time, wed_time, thu_time, 
-      fri_time, sat_time, sun_time
-      )
-    values (#{id,jdbcType=BIGINT}, #{nickname,jdbcType=VARCHAR}, #{startTime,jdbcType=TIMESTAMP}, 
-      #{endTime,jdbcType=TIMESTAMP}, #{clockTime,jdbcType=DECIMAL}, #{monTime,jdbcType=DECIMAL}, 
-      #{tueTime,jdbcType=DECIMAL}, #{wedTime,jdbcType=DECIMAL}, #{thuTime,jdbcType=DECIMAL}, 
-      #{friTime,jdbcType=DECIMAL}, #{satTime,jdbcType=DECIMAL}, #{sunTime,jdbcType=DECIMAL}
-      )
-  </insert>
   <insert id="insertSelective" parameterType="com.lc.clock.pojo.Clock">
     insert into t_clock
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -159,21 +141,40 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.lc.clock.pojo.Clock">
-    update t_clock
-    set nickname = #{nickname,jdbcType=VARCHAR},
-      start_time = #{startTime,jdbcType=TIMESTAMP},
-      end_time = #{endTime,jdbcType=TIMESTAMP},
-      clock_time = #{clockTime,jdbcType=DECIMAL},
-      mon_time = #{monTime,jdbcType=DECIMAL},
-      tue_time = #{tueTime,jdbcType=DECIMAL},
-      wed_time = #{wedTime,jdbcType=DECIMAL},
-      thu_time = #{thuTime,jdbcType=DECIMAL},
-      fri_time = #{friTime,jdbcType=DECIMAL},
-      sat_time = #{satTime,jdbcType=DECIMAL},
-      sun_time = #{sunTime,jdbcType=DECIMAL}
-    where id = #{id,jdbcType=BIGINT}
-  </update>
 
   <!--以上为自动生成，以下为项目所需-->
+
+  <update id="updateClockByNickName" parameterType="java.lang.String">
+    update t_clock
+    set nickname = #{nickname,jdbcType=VARCHAR},
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+        end_time = #{endTime,jdbcType=TIMESTAMP},
+        clock_time = #{clockTime,jdbcType=DECIMAL},
+        mon_time = #{monTime,jdbcType=DECIMAL},
+        tue_time = #{tueTime,jdbcType=DECIMAL},
+        wed_time = #{wedTime,jdbcType=DECIMAL},
+        thu_time = #{thuTime,jdbcType=DECIMAL},
+        fri_time = #{friTime,jdbcType=DECIMAL},
+        sat_time = #{satTime,jdbcType=DECIMAL},
+        sun_time = #{sunTime,jdbcType=DECIMAL}
+    where nickname = #{nickname,jdbcType=VARCHAR}
+  </update>
+  <insert id="addClock" parameterType="com.lc.clock.pojo.Clock">
+    insert into t_clock (id, nickname, start_time,
+                         end_time, clock_time, mon_time,
+                         tue_time, wed_time, thu_time,
+                         fri_time, sat_time, sun_time
+    )
+    values (#{id,jdbcType=BIGINT}, #{nickname,jdbcType=VARCHAR}, #{startTime,jdbcType=TIMESTAMP},
+            #{endTime,jdbcType=TIMESTAMP}, #{clockTime,jdbcType=DECIMAL}, #{monTime,jdbcType=DECIMAL},
+            #{tueTime,jdbcType=DECIMAL}, #{wedTime,jdbcType=DECIMAL}, #{thuTime,jdbcType=DECIMAL},
+            #{friTime,jdbcType=DECIMAL}, #{satTime,jdbcType=DECIMAL}, #{sunTime,jdbcType=DECIMAL}
+           )
+  </insert>
+  <select id="selectClock" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_clock
+    where nickname = #{nickname,jdbcType=VARCHAR}
+  </select>
 </mapper>

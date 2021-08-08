@@ -12,6 +12,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -110,6 +111,7 @@ public class UserController {
                 UserVO userVO = new UserVO();
                 BeanUtils.copyProperties(user,userVO);
                 userVO.setAllTime(userService.selectByNickName(user.getNickname()).getAllTime());
+
                 userVO.setFinishTime(managerService.findClock(user.getNickname()).getClockTime());
                 userVOList.add(userVO);
             }
