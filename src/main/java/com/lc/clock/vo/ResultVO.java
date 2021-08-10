@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ResultVO<T> {
     /*错误码*/
-    private Integer code;
+    private Integer status;
 
     /*提示信息*/
     private String msg;

@@ -19,10 +19,6 @@
     id, nickname, start_time, end_time, clock_time, mon_time, tue_time, wed_time, thu_time, 
     fri_time, sat_time, sun_time
   </sql>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
-    delete from t_clock
-    where id = #{id,jdbcType=BIGINT}
-  </delete>
   <insert id="insertSelective" parameterType="com.lc.clock.pojo.Clock">
     insert into t_clock
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -143,8 +139,7 @@
   </update>
 
   <!--以上为自动生成，以下为项目所需-->
-
-  <update id="updateClockByNickName" parameterType="java.lang.String">
+  <update id="updateClockById" parameterType="com.lc.clock.pojo.Clock">
     update t_clock
     set nickname = #{nickname,jdbcType=VARCHAR},
         start_time = #{startTime,jdbcType=TIMESTAMP},
@@ -157,8 +152,8 @@
         fri_time = #{friTime,jdbcType=DECIMAL},
         sat_time = #{satTime,jdbcType=DECIMAL},
         sun_time = #{sunTime,jdbcType=DECIMAL}
-    where nickname = #{nickname,jdbcType=VARCHAR}
-  </update>
+    where id = #{id,jdbcType=BIGINT}
+  </update >
   <insert id="addClock" parameterType="com.lc.clock.pojo.Clock">
     insert into t_clock (id, nickname, start_time,
                          end_time, clock_time, mon_time,
@@ -176,5 +171,14 @@
     <include refid="Base_Column_List" />
     from t_clock
     where nickname = #{nickname,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteClock" parameterType="java.lang.String">
+    delete from t_clock
+    where nickname = #{nickname,jdbcType=VARCHAR}
+  </delete>
+  <select id="findAllClock" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_clock
   </select>
 </mapper>

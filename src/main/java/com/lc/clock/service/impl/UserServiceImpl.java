@@ -53,4 +53,9 @@ public class UserServiceImpl implements UserService {
     public List<User> findByGrade(Integer grade) {
         return mapper.findByGrade(grade);
     }
+
+    @Override
+    public List<User> findAllUser() {
+        return mapper.findAllUser();
+    }
 }

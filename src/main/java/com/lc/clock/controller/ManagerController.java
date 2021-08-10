@@ -37,6 +37,9 @@ public class ManagerController {
             log.error("【管理员修改信息】该用户不存在，修改失败");
             return ResultVOUtil.error("该用户不存在，修改失败");
         }
+        if (userService.selectByNickName(newNickname)!=null){
+            return ResultVOUtil.error("该用户名已存在");
+        }
         //修改用户表
         user.setUsername(username);
         user.setNickname(newNickname);
@@ -44,15 +47,16 @@ public class ManagerController {
         user.setOnline(online);
         user.setAllTime(allTime);
         user.setRole(role);
-        userService.updateUser(user);
 
         //修改打卡表
         Clock clock = managerService.findClock(nickname);
         clock.setNickname(newNickname);
         clock.setClockTime(finishTime);
-        managerService.updateClock(clock);
-
-        return ResultVOUtil.success();
+        if (userService.updateUser(user)==1 && managerService.updateClock(clock)==1){
+            return ResultVOUtil.success(null);
+        }else{
+            return ResultVOUtil.error("数据库更新失败！");
+        }
     }
 
     /**
@@ -68,8 +72,7 @@ public class ManagerController {
         managerService.deleteClock(nickname);
         managerService.deleteUser(nickname);
 
-        return ResultVOUtil.success();
+        return ResultVOUtil.success(null);
     }
-
 
 }

@@ -4,6 +4,8 @@ import com.lc.clock.pojo.Clock;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Mapper
 @Repository
 public interface ClockMapper {
@@ -17,7 +19,7 @@ public interface ClockMapper {
     int updateByPrimaryKey(Clock record);*/
 
     //更新打卡表
-    int updateClockByNickName(Clock clock);
+    int updateClockById(Clock clock);
 
     //注册用户时，需要增加打卡表
     int addClock(Clock clock);
@@ -27,4 +29,7 @@ public interface ClockMapper {
 
     //删除打卡表
     int deleteClock(String nickname);
+
+    //获取所有打卡表
+    List<Clock> findAllClock();
 }

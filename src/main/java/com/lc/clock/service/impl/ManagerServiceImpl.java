@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.List;
 
 @Slf4j
 @Service
@@ -27,7 +28,7 @@ public class ManagerServiceImpl implements ManagerService {
 
     @Override
     public int updateClock(Clock clock) {
-        return clockMapper.updateClockByNickName(clock);
+        return clockMapper.updateClockById(clock);
     }
 
     @Override
@@ -44,4 +45,5 @@ public class ManagerServiceImpl implements ManagerService {
     public int deleteUser(String nickname) {
         return userMapper.deleteUser(nickname);
     }
+
 }

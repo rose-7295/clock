@@ -124,12 +124,12 @@
   <!--以上为自动生成，以下为项目所需-->
   <insert id="addUser" parameterType="com.lc.clock.pojo.User">
     insert into t_user (id, avatar, create_time,
-                        email, nickname, password,
+                        nickname, password,
                         role, update_time, username,
                         online,allTime,grade
     )
     values (#{id,jdbcType=BIGINT}, #{avatar,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
-            #{email,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+            #{nickname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
             #{role,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, #{username,jdbcType=VARCHAR},
             #{grade,jdbcType=INTEGER},#{online,jdbcType=INTEGER},#{allTime,jdbcType=INTEGER}
            )
@@ -141,14 +141,15 @@
   <update id="updateUser" parameterType="com.lc.clock.pojo.User">
     update t_user
     set avatar = #{avatar,jdbcType=VARCHAR},
-        create_time = #{createTime,jdbcType=TIMESTAMP},
-        email = #{email,jdbcType=VARCHAR},
+        role = #{avatar,jdbcType=VARCHAR},
         nickname = #{nickname,jdbcType=VARCHAR},
         password = #{password,jdbcType=VARCHAR},
-        type = #{type,jdbcType=INTEGER},
+        online = #{online,jdbcType=INTEGER},
+        grade = #{grade,jdbcType=INTEGER},
         update_time = #{updateTime,jdbcType=TIMESTAMP},
-        username = #{username,jdbcType=VARCHAR}
-    where nickname = #{nickname,jdbcType=VARCHAR}
+        username = #{username,jdbcType=VARCHAR},
+        allTime = #{allTime,jdbcType=DECIMAL}
+    where id = #{id,jdbcType=BIGINT}
   </update>
   <select id="selectByNickName" parameterType="java.lang.String" resultMap="BaseResultMap">
     select
@@ -162,4 +163,10 @@
     from t_user
     where grade = #{grade,jdbcType=INTEGER}
   </select>
+  <select id="findAllUser" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+  </select>
+
 </mapper>

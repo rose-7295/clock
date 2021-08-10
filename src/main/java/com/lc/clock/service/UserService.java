@@ -15,4 +15,6 @@ public interface UserService {
     int addClock(Clock clock);
 
     List<User> findByGrade(Integer grade);
+
+    List<User> findAllUser();
 }

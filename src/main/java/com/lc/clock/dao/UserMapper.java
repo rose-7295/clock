@@ -29,4 +29,7 @@ public interface UserMapper {
 
     //根据年级查询用户
     List<User> findByGrade(Integer grade);
+
+    //获取所有用户
+    List<User> findAllUser();
 }
