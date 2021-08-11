@@ -141,7 +141,7 @@
   <update id="updateUser" parameterType="com.lc.clock.pojo.User">
     update t_user
     set avatar = #{avatar,jdbcType=VARCHAR},
-        role = #{avatar,jdbcType=VARCHAR},
+        role = #{role,jdbcType=VARCHAR},
         nickname = #{nickname,jdbcType=VARCHAR},
         password = #{password,jdbcType=VARCHAR},
         online = #{online,jdbcType=INTEGER},

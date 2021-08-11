@@ -12,9 +12,14 @@ import com.lc.clock.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.thymeleaf.util.DateUtils;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,6 +35,8 @@ public class UserController {
 
     @Autowired
     private ManagerService managerService;
+
+
 
     /**
      * 登录
@@ -249,4 +256,43 @@ public class UserController {
         }
         return ResultVOUtil.success(rankVOList);
     }
+
+    /**
+     * 上传图片
+     */
+    @PostMapping("/upload")
+    public ResultVO upload(@RequestParam("file") MultipartFile file,
+                           @RequestParam("nickname") String nickname) throws IOException {
+        User user = userService.selectByNickName(nickname);
+        String filename = file.getOriginalFilename();
+        String filePath = System.getProperty("user.dir")+"\\src\\main\\resources\\static\\img";
+        if (!new File(filePath).exists()){
+            new File(filePath).mkdirs();
+        }
+        File dest = new File(filePath + File.separator + nickname +"_"+filename);
+        try {
+            file.transferTo(dest);
+        }catch (Exception e){
+            e.printStackTrace();
+        };
+        user.setAvatar("/img/" + nickname+"_"+filename);
+        userService.updateUser(user);
+        return ResultVOUtil.success("/img/" + nickname+"_"+filename);
+    }
+
+    /**
+     * 删除图片
+     */
+    @PostMapping("/delete")
+    public ResultVO delete(@RequestParam("nickname") String nickname){
+        User user = userService.selectByNickName(nickname);
+        if (user == null){
+            log.error("【删除头像】失败，不存在该用户");
+            return ResultVOUtil.error("不存在该用户");
+        }
+        user.setAvatar(null);
+        userService.updateUser(user);
+        return ResultVOUtil.success(null);
+    }
+
 }
