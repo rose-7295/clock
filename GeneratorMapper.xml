@@ -37,17 +37,11 @@
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 数据库表名及对应的 Java 模型类名 -->
-        <table tableName="t_clock" domainObjectName="Clock"
+        <table tableName="t_week" domainObjectName="Week"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
         enableSelectByExample="false"
         selectByExampleQueryId="false"/>
-        <table tableName="t_user" domainObjectName="User"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"/>
     </context>
 </generatorConfiguration>

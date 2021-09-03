@@ -1,0 +1,147 @@
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 37930 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1521 ms
+Stopping service [Tomcat]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 38359 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1300 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@584a7749, org.springframework.security.web.context.SecurityContextPersistenceFilter@775f09f8, org.springframework.security.web.header.HeaderWriterFilter@424cdc0e, org.springframework.security.web.authentication.logout.LogoutFilter@13f3f11a, com.lc.clock.config.LoginFilter@1d94275, org.springframework.security.web.session.ConcurrentSessionFilter@70291a2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41fb5c1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ded1951, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c230530, org.springframework.security.web.session.SessionManagementFilter@42b8c444, org.springframework.security.web.access.ExceptionTranslationFilter@3df7fd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cd763d4]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 2.927 seconds (JVM running for 3.89)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 40373 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1443 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71a88371, org.springframework.security.web.context.SecurityContextPersistenceFilter@13d89d20, org.springframework.security.web.header.HeaderWriterFilter@2fcf8905, org.springframework.security.web.authentication.logout.LogoutFilter@5a31b377, com.lc.clock.config.LoginFilter@8b35ba6, org.springframework.security.web.session.ConcurrentSessionFilter@4778dc83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c4e144f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5530690b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@342de9c0, org.springframework.security.web.session.SessionManagementFilter@20b2bc38, org.springframework.security.web.access.ExceptionTranslationFilter@1794b0e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a282037]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.289 seconds (JVM running for 4.209)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Encoded password does not look like BCrypt
+Encoded password does not look like BCrypt
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 40725 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1585 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@342dbdd3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b64b438, org.springframework.security.web.header.HeaderWriterFilter@48145264, org.springframework.security.web.authentication.logout.LogoutFilter@f73fe6a, com.lc.clock.config.LoginFilter@1c07e14c, org.springframework.security.web.session.ConcurrentSessionFilter@57a54e37, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@374322b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f1df00e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61ea2565, org.springframework.security.web.session.SessionManagementFilter@6a403534, org.springframework.security.web.access.ExceptionTranslationFilter@73b6813, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61307e5f]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.471 seconds (JVM running for 6.201)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Encoded password does not look like BCrypt
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 42886 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1544 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c8afb3, org.springframework.security.web.context.SecurityContextPersistenceFilter@27790a3b, org.springframework.security.web.header.HeaderWriterFilter@4a18f8e2, org.springframework.security.web.authentication.logout.LogoutFilter@2656e75f, com.lc.clock.config.LoginFilter@34dd27db, org.springframework.security.web.session.ConcurrentSessionFilter@34219c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@417c0469, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e9f492a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@633b2af0, org.springframework.security.web.session.SessionManagementFilter@76a23d67, org.springframework.security.web.access.ExceptionTranslationFilter@3c74fc1b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1966b8ed]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.201 seconds (JVM running for 4.291)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Encoded password does not look like BCrypt
+Encoded password does not look like BCrypt
+Encoded password does not look like BCrypt
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'grade' for method parameter type Integer is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'grade' for method parameter type Integer is not present]
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.

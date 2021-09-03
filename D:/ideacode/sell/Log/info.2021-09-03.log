@@ -1,0 +1,872 @@
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 1434 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2306 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@570dc8bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@251a426c, org.springframework.security.web.header.HeaderWriterFilter@3e3f43a8, org.springframework.security.web.authentication.logout.LogoutFilter@f1b8995, com.lc.clock.config.LoginFilter@20ae47dc, org.springframework.security.web.session.ConcurrentSessionFilter@11689f6, org.springframework.security.web.session.ConcurrentSessionFilter@7ae60411, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e927b4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aafb43f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5343482c, org.springframework.security.web.session.SessionManagementFilter@5873d73, org.springframework.security.web.access.ExceptionTranslationFilter@54055ba6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44daf83a]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 13.87 seconds (JVM running for 14.936)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+No mapping for GET /favicon.ico
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 1434 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.lc.clock]' package. Please check your configuration.
+Tomcat initialized with port(s): 8082 (http)
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 933 ms
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24398795, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c9b152d, org.springframework.security.web.header.HeaderWriterFilter@429d6625, org.springframework.security.web.csrf.CsrfFilter@5e3eb9c0, org.springframework.security.web.authentication.logout.LogoutFilter@117a1e58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2ee141f0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@237af385, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28ed4625, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57b17cd0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f5fd744, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@765a3ec4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67cdbf95, org.springframework.security.web.session.SessionManagementFilter@57c046ac, org.springframework.security.web.access.ExceptionTranslationFilter@2eb1aad0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6127a3e7]
+LiveReload server is running on port 35729
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 1.573 seconds (JVM running for 301.088)
+Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 1434 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Tomcat initialized with port(s): 8082 (http)
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 337 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@553c368d, org.springframework.security.web.context.SecurityContextPersistenceFilter@17e59d88, org.springframework.security.web.header.HeaderWriterFilter@53b85828, org.springframework.security.web.authentication.logout.LogoutFilter@299b7e25, com.lc.clock.config.LoginFilter@409aba78, org.springframework.security.web.session.ConcurrentSessionFilter@7e3a04a1, org.springframework.security.web.session.ConcurrentSessionFilter@6650ccbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e7adb95, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f12b96a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@477da77f, org.springframework.security.web.session.SessionManagementFilter@2ed66e1b, org.springframework.security.web.access.ExceptionTranslationFilter@33c74a33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a576b60]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 0.723 seconds (JVM running for 304.273)
+Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#taskScheduler matched:
+      - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.SchedulingConfigurer,org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' managerServiceImpl, userServiceImpl (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 12136 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1553 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d988f, org.springframework.security.web.context.SecurityContextPersistenceFilter@628ddc07, org.springframework.security.web.header.HeaderWriterFilter@66f02b08, org.springframework.security.web.authentication.logout.LogoutFilter@3845dbce, com.lc.clock.config.LoginFilter@7152a39, org.springframework.security.web.session.ConcurrentSessionFilter@2b3dd30, org.springframework.security.web.session.ConcurrentSessionFilter@11523522, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b415142, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67e43a92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c399f15, org.springframework.security.web.session.SessionManagementFilter@3d63cbb4, org.springframework.security.web.access.ExceptionTranslationFilter@7d305cab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dbdb9c0]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.91 seconds (JVM running for 5.228)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 16705 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1350 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11d7c4ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b4bb87a, org.springframework.security.web.header.HeaderWriterFilter@4ca2dec0, org.springframework.security.web.authentication.logout.LogoutFilter@1dca0e17, com.lc.clock.config.LoginFilter@52ece6de, org.springframework.security.web.session.ConcurrentSessionFilter@474a2b58, org.springframework.security.web.session.ConcurrentSessionFilter@32c998c5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75b9085b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@100287c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60957c76, org.springframework.security.web.session.SessionManagementFilter@622c0153, org.springframework.security.web.access.ExceptionTranslationFilter@6f3d4566, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b3ed440]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.401 seconds (JVM running for 4.383)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 17304 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1437 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [7389F2E9F1BFA5C7FFEC5B7907A730E5]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28930465, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e080d7b, org.springframework.security.web.header.HeaderWriterFilter@27b276d3, org.springframework.security.web.authentication.logout.LogoutFilter@7c3a60f1, com.lc.clock.config.LoginFilter@3e3ee0dd, org.springframework.security.web.session.ConcurrentSessionFilter@15e8d5dc, org.springframework.security.web.session.ConcurrentSessionFilter@d3adf5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a5ee6b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f683f66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b428084, org.springframework.security.web.session.SessionManagementFilter@c6f51fd, org.springframework.security.web.access.ExceptionTranslationFilter@1b04eab4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@680370eb]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.408 seconds (JVM running for 4.191)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 18561 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1354 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [7389F2E9F1BFA5C7FFEC5B7907A730E5]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2503eaea, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c3d220b, org.springframework.security.web.header.HeaderWriterFilter@474d2dcc, org.springframework.security.web.authentication.logout.LogoutFilter@228b1f6, com.lc.clock.config.LoginFilter@5da067d2, org.springframework.security.web.session.ConcurrentSessionFilter@3ea26468, org.springframework.security.web.session.ConcurrentSessionFilter@1d428d3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c47c048, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68ce8f16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@227cfc70, org.springframework.security.web.session.SessionManagementFilter@7b2cc355, org.springframework.security.web.access.ExceptionTranslationFilter@5907a82d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c2b9790]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.262 seconds (JVM running for 4.222)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@666ff954 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52b93c8c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a2f90ad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bdb13bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b0550a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60767a93 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@426cbcd9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34a422ff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e2e34df (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4459d3dd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3052efa5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b5691a3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fb51cc4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c176d90 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5bfcaa40 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48e363d2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4848144b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c35a455 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ee47b58 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e2bab46 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45cd1e1f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57ab720e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39732d7e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7cfbb781 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@19713568 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d68ed84 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c63b9b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15fc525 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61736bcd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@371b16b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6045b00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48345f1f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17d0d9cb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3fb1c05 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@33d76b0f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@694c6c86 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4608ec80 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60031d5e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73330de5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1cdb0156 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+No mapping for GET /sr1/red
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /home
+No mapping for GET /sr1/red
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /home
+No mapping for GET /sr1/red
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 92989 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2832 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5118afa1, org.springframework.security.web.context.SecurityContextPersistenceFilter@22185343, org.springframework.security.web.header.HeaderWriterFilter@1bbc2c3, org.springframework.security.web.authentication.logout.LogoutFilter@432cbf34, com.lc.clock.config.LoginFilter@29280789, org.springframework.security.web.session.ConcurrentSessionFilter@3001c4c, org.springframework.security.web.session.ConcurrentSessionFilter@2037cdad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@718a87bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@341f0a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cacf050, org.springframework.security.web.session.SessionManagementFilter@209c706b, org.springframework.security.web.access.ExceptionTranslationFilter@5daf5ed2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20de92b4]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.827 seconds (JVM running for 7.209)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /favicon.ico
+No mapping for GET /home
+No mapping for GET /sr1/red
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /home
+No mapping for GET /babel/parser/lib/index.js
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 4881 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2066 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [0D69D122E629D1AD6B474E11805AC220]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36a03cb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4441b7d9, org.springframework.security.web.header.HeaderWriterFilter@4782c25, org.springframework.security.web.authentication.logout.LogoutFilter@2f6aee05, com.lc.clock.config.LoginFilter@3d9a1f69, org.springframework.security.web.session.ConcurrentSessionFilter@5cd13fce, org.springframework.security.web.session.ConcurrentSessionFilter@155799f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ecf445f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49befd6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@391070e1, org.springframework.security.web.session.SessionManagementFilter@4454cea0, org.springframework.security.web.access.ExceptionTranslationFilter@788fb3e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a2ee29a]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.844 seconds (JVM running for 6.303)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 7412 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1943 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [0D69D122E629D1AD6B474E11805AC220]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49ea71d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@31d9bc08, org.springframework.security.web.header.HeaderWriterFilter@119d9b56, org.springframework.security.web.authentication.logout.LogoutFilter@69f7d227, com.lc.clock.config.LoginFilter@1e7d35bd, org.springframework.security.web.session.ConcurrentSessionFilter@57524098, org.springframework.security.web.session.ConcurrentSessionFilter@5683929, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67c45700, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@647f501e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4945e73e, org.springframework.security.web.session.SessionManagementFilter@3429b84e, org.springframework.security.web.access.ExceptionTranslationFilter@76315510, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6961ed1e]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.065 seconds (JVM running for 6.104)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 11444 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1554 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [0D69D122E629D1AD6B474E11805AC220]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49ea71d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@31d9bc08, org.springframework.security.web.header.HeaderWriterFilter@119d9b56, org.springframework.security.web.authentication.logout.LogoutFilter@69f7d227, com.lc.clock.config.LoginFilter@1e7d35bd, org.springframework.security.web.session.ConcurrentSessionFilter@57524098, org.springframework.security.web.session.ConcurrentSessionFilter@5683929, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67c45700, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@647f501e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4945e73e, org.springframework.security.web.session.SessionManagementFilter@3429b84e, org.springframework.security.web.access.ExceptionTranslationFilter@76315510, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6961ed1e]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.924 seconds (JVM running for 6.036)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 28 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 15186 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1830 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [0D69D122E629D1AD6B474E11805AC220]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76901ca4, org.springframework.security.web.context.SecurityContextPersistenceFilter@355ec398, org.springframework.security.web.header.HeaderWriterFilter@48953436, org.springframework.security.web.authentication.logout.LogoutFilter@2f8160a9, com.lc.clock.config.LoginFilter@358cefc0, org.springframework.security.web.session.ConcurrentSessionFilter@335cd54e, org.springframework.security.web.session.ConcurrentSessionFilter@7a08145f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ed48a6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ce6c7c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bc9c745, org.springframework.security.web.session.SessionManagementFilter@1280c9bb, org.springframework.security.web.access.ExceptionTranslationFilter@48f08c5d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@dc64ae4]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.548 seconds (JVM running for 6.287)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 24 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fb29ffc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bdc932b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@516ac289 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ba472f4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c91c722 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f0b58e5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@706f195e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@656e2b78 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@144f55fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@493a8fbf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 22208 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3351 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [31284D70227606D6C8FEC3E820F7BD7A]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@428a7d13, org.springframework.security.web.context.SecurityContextPersistenceFilter@400af65c, org.springframework.security.web.header.HeaderWriterFilter@8a2c2cb, org.springframework.security.web.authentication.logout.LogoutFilter@ab8e611, com.lc.clock.config.LoginFilter@23aec124, org.springframework.security.web.session.ConcurrentSessionFilter@3f100fd5, org.springframework.security.web.session.ConcurrentSessionFilter@6a0615a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b810618, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f7698c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60b78e4b, org.springframework.security.web.session.SessionManagementFilter@6f9e41c8, org.springframework.security.web.access.ExceptionTranslationFilter@2f80c766, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b8499b8]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.729 seconds (JVM running for 6.818)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2037014f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f12ba06 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3cf1c8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b2a780b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ed311c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5066b98a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@502eba5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e49e4f6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3db10ac4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78a1568e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@121bba84 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@291dd546 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58b7f49b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51557ef7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16a5a1b2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c05512f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7056fe96 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c384324 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b716f18 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3726b23f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76f975c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b5f9532 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ef02e20 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b49af8a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@84ce7df (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25c49799 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4922370f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@36175b92 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@660c8125 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10d5cc72 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 38225 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2252 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20007abf, org.springframework.security.web.context.SecurityContextPersistenceFilter@709400a5, org.springframework.security.web.header.HeaderWriterFilter@40c9963c, org.springframework.security.web.authentication.logout.LogoutFilter@1fc10dda, com.lc.clock.config.LoginFilter@62580f7a, org.springframework.security.web.session.ConcurrentSessionFilter@661876e3, org.springframework.security.web.session.ConcurrentSessionFilter@3365870b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13c01b5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ee04e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@207c2af2, org.springframework.security.web.session.SessionManagementFilter@35cad6a1, org.springframework.security.web.access.ExceptionTranslationFilter@6a44eb86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5937ca90]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.225 seconds (JVM running for 6.75)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 40494 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2484 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4781965e, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ee5135, org.springframework.security.web.header.HeaderWriterFilter@70f5b29b, org.springframework.security.web.authentication.logout.LogoutFilter@3a0c7796, com.lc.clock.config.LoginFilter@6681f02, org.springframework.security.web.session.ConcurrentSessionFilter@68dbd820, org.springframework.security.web.session.ConcurrentSessionFilter@3c33d11b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@616be301, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@315982e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77d5000d, org.springframework.security.web.session.SessionManagementFilter@6424662b, org.springframework.security.web.access.ExceptionTranslationFilter@7e5f2e14, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e54fe72]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.448 seconds (JVM running for 6.595)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 56680 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1780 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [82A840A296C8FAE1759B46F6BAFE7D57]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@617f343e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7553a0d6, org.springframework.security.web.header.HeaderWriterFilter@5f0a96cf, org.springframework.security.web.authentication.logout.LogoutFilter@5735a7a, com.lc.clock.config.LoginFilter@52ece6de, org.springframework.security.web.session.ConcurrentSessionFilter@17a4b010, org.springframework.security.web.session.ConcurrentSessionFilter@779297a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58ef1856, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@af20d7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@439354b2, org.springframework.security.web.session.SessionManagementFilter@3fa6bb48, org.springframework.security.web.access.ExceptionTranslationFilter@c9bb6a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3476717f]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.059 seconds (JVM running for 4.934)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 19 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 57340 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1547 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [F4884438D3972AFBFC2DE549584D57A4]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78560620, org.springframework.security.web.context.SecurityContextPersistenceFilter@18f275b, org.springframework.security.web.header.HeaderWriterFilter@2e890b32, org.springframework.security.web.authentication.logout.LogoutFilter@3b797639, com.lc.clock.config.LoginFilter@7f6bf19a, org.springframework.security.web.session.ConcurrentSessionFilter@23fcbe7b, org.springframework.security.web.session.ConcurrentSessionFilter@3d9179c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8fbd560, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3181774, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7404c84d, org.springframework.security.web.session.SessionManagementFilter@2c299e83, org.springframework.security.web.access.ExceptionTranslationFilter@62f4fb0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e0f7611]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.647 seconds (JVM running for 4.553)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 62481 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1694 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@262f6e71, org.springframework.security.web.context.SecurityContextPersistenceFilter@667e1ca1, org.springframework.security.web.header.HeaderWriterFilter@5f860183, org.springframework.security.web.authentication.logout.LogoutFilter@6f99e5ee, com.lc.clock.config.LoginFilter@27d2641c, org.springframework.security.web.session.ConcurrentSessionFilter@339ad08c, org.springframework.security.web.session.ConcurrentSessionFilter@1150a637, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@569d3059, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b976c3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e08dbfc, org.springframework.security.web.session.SessionManagementFilter@1ca2d0ed, org.springframework.security.web.access.ExceptionTranslationFilter@5e4dd3c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56cd6f9b]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.043 seconds (JVM running for 6.767)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 48 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s415ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s533ms).
+No mapping for GET /babel/parser/lib/index.js
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 73737 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2320 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [808DE0A70F745BCF30A6DAB7756C70FC]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d02df04, org.springframework.security.web.context.SecurityContextPersistenceFilter@1868c11d, org.springframework.security.web.header.HeaderWriterFilter@7ec0121, org.springframework.security.web.authentication.logout.LogoutFilter@6e460820, com.lc.clock.config.LoginFilter@586f1998, org.springframework.security.web.session.ConcurrentSessionFilter@687dba38, org.springframework.security.web.session.ConcurrentSessionFilter@5a6e8064, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c4aeacc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0ae0c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aca496f, org.springframework.security.web.session.SessionManagementFilter@3df07748, org.springframework.security.web.access.ExceptionTranslationFilter@2f79f5b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c2fdba4]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 5.472 seconds (JVM running for 6.911)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 13 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+No mapping for GET /babel/parser/lib/index.js
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ab7d544 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31b40ee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7662252c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1256985d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@783faf41 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b1a33cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76484956 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2df0472 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a9be5af (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5faf2355 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.

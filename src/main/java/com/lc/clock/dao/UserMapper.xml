@@ -5,143 +5,162 @@
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="avatar" jdbcType="VARCHAR" property="avatar" />
     <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="role" jdbcType="VARCHAR" property="role" />
     <result column="nickname" jdbcType="VARCHAR" property="nickname" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="grade" jdbcType="INTEGER" property="grade" />
-    <result column="allTime" jdbcType="INTEGER" property="allTime" />
+    <result column="allTime" jdbcType="DECIMAL" property="allTime" />
     <result column="online" jdbcType="INTEGER" property="online" />
     <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
     <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="enabled" jdbcType="TINYINT" property="enabled" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, avatar, create_time, grade, nickname, password, role, update_time, username, allTime, online
+    id, avatar, create_time, grade, nickname, password, update_time, username, allTime, online, enabled
   </sql>
-  <insert id="insertSelective" parameterType="com.lc.clock.pojo.User">
+  <insert id="insertSelective" parameterType="com.lc.clock.pojo.User" useGeneratedKeys="true" keyProperty="id">
     insert into t_user
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
         id,
       </if>
-      <if test="avatar != null">
-        avatar,
-      </if>
-      <if test="createTime != null">
-        create_time,
-      </if>
-      <if test="email != null">
-        email,
-      </if>
       <if test="nickname != null">
         nickname,
+      </if>
+      <if test="username != null">
+        username,
       </if>
       <if test="password != null">
         password,
       </if>
-      <if test="type != null">
-        type,
+      <if test="grade != null">
+        grade,
+      </if>
+      <if test="createTime != null">
+        create_time,
       </if>
       <if test="updateTime != null">
         update_time,
       </if>
-      <if test="username != null">
-        username,
+      <if test="online != null">
+        online,
+      </if>
+      <if test="avatar != null">
+        avatar,
+      </if>
+      <if test="allTime != null">
+        allTime,
+      </if>
+      <if test="enabled != null">
+        enabled,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
         #{id,jdbcType=BIGINT},
       </if>
-      <if test="avatar != null">
-        #{avatar,jdbcType=VARCHAR},
-      </if>
-      <if test="createTime != null">
-        #{createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="email != null">
-        #{email,jdbcType=VARCHAR},
-      </if>
       <if test="nickname != null">
         #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
       </if>
       <if test="password != null">
         #{password,jdbcType=VARCHAR},
       </if>
-      <if test="type != null">
-        #{type,jdbcType=INTEGER},
+      <if test="grade != null">
+        #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
       </if>
       <if test="updateTime != null">
         #{updateTime,jdbcType=TIMESTAMP},
       </if>
-      <if test="username != null">
-        #{username,jdbcType=VARCHAR},
+      <if test="online != null">
+        #{online,jdbcType=INTEGER},
+      </if>
+      <if test="avatar != null">
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+
+      <if test="allTime != null">
+        #{allTime,jdbcType=DECIMAL},
+      </if>
+      <if test="enabled != null">
+        #{enabled,jdbcType=TINYINT},
       </if>
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.lc.clock.pojo.User">
     update t_user
     <set>
-      <if test="avatar != null">
-        avatar = #{avatar,jdbcType=VARCHAR},
-      </if>
-      <if test="createTime != null">
-        create_time = #{createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="email != null">
-        email = #{email,jdbcType=VARCHAR},
-      </if>
       <if test="nickname != null">
         nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
       </if>
       <if test="password != null">
         password = #{password,jdbcType=VARCHAR},
       </if>
-      <if test="type != null">
-        type = #{type,jdbcType=INTEGER},
+      <if test="grade != null">
+        grade = #{grade,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
       </if>
       <if test="updateTime != null">
         update_time = #{updateTime,jdbcType=TIMESTAMP},
       </if>
-      <if test="username != null">
-        username = #{username,jdbcType=VARCHAR},
+      <if test="online != null">
+        online = #{online,jdbcType=INTEGER},
+      </if>
+      <if test="avatar != null">
+        avatar = #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="allTime != null">
+        allTime = #{allTime,jdbcType=DECIMAL},
+      </if>
+      <if test="enabled != null">
+        enabled = #{enabled,jdbcType=TINYINT},
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.lc.clock.pojo.User">
     update t_user
-    set avatar = #{avatar,jdbcType=VARCHAR},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      email = #{email,jdbcType=VARCHAR},
-      nickname = #{nickname,jdbcType=VARCHAR},
-      password = #{password,jdbcType=VARCHAR},
-      type = #{type,jdbcType=INTEGER},
-      update_time = #{updateTime,jdbcType=TIMESTAMP},
-      username = #{username,jdbcType=VARCHAR}
+    set nickname = #{nickname,jdbcType=VARCHAR},
+        username = #{username,jdbcType=VARCHAR},
+        password = #{password,jdbcType=VARCHAR},
+        grade = #{grade,jdbcType=INTEGER},
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+        online = #{online,jdbcType=INTEGER},
+        avatar = #{avatar,jdbcType=VARCHAR},
+        allTime = #{allTime,jdbcType=DECIMAL},
+        enabled = #{enabled,jdbcType=TINYINT}
     where id = #{id,jdbcType=BIGINT}
   </update>
 
   <!--以上为自动生成，以下为项目所需-->
   <insert id="addUser" parameterType="com.lc.clock.pojo.User">
     insert into t_user (id, avatar, create_time,
-                        nickname, password,
-                        role, update_time, username,
-                        online,allTime,grade
+                        nickname, password, update_time, username,
+                        grade,online,allTime,enabled
     )
     values (#{id,jdbcType=BIGINT}, #{avatar,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
             #{nickname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
-            #{role,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, #{username,jdbcType=VARCHAR},
-            #{grade,jdbcType=INTEGER},#{online,jdbcType=INTEGER},#{allTime,jdbcType=INTEGER}
+            #{updateTime,jdbcType=TIMESTAMP}, #{username,jdbcType=VARCHAR},
+            #{grade,jdbcType=INTEGER},#{online,jdbcType=INTEGER},#{allTime,jdbcType=INTEGER},#{enabled,jdbcType=TINYINT}
            )
   </insert>
   <delete id="deleteUser" parameterType="java.lang.String">
     delete from t_user
-    where nickname = #{nickname,jdbcType=VARCHAR}
+    where username = #{username,jdbcType=VARCHAR}
   </delete>
   <update id="updateUser" parameterType="com.lc.clock.pojo.User">
     update t_user
     set avatar = #{avatar,jdbcType=VARCHAR},
-        role = #{role,jdbcType=VARCHAR},
         nickname = #{nickname,jdbcType=VARCHAR},
         password = #{password,jdbcType=VARCHAR},
         online = #{online,jdbcType=INTEGER},
@@ -151,11 +170,19 @@
         allTime = #{allTime,jdbcType=DECIMAL}
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <select id="selectByNickName" parameterType="java.lang.String" resultMap="BaseResultMap">
+  <update id="updatePwdByUsername">
+    update t_user
+    set password = #{encodePass}
+    where username = #{username};
+  </update>
+  <update id="updateAvatar">
+    update t_user set avatar = #{url} where username = #{username};
+  </update>
+  <select id="selectByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List" />
     from t_user
-    where nickname = #{nickname,jdbcType=VARCHAR}
+    where username = #{username,jdbcType=VARCHAR}
   </select>
   <select id="findByGrade" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select
@@ -167,6 +194,13 @@
     select
     <include refid="Base_Column_List" />
     from t_user
+  </select>
+    <select id="loadUserByUsername" resultMap="BaseResultMap">
+      select * from t_user where username = #{username};
+    </select>
+  <select id="getUserRolesById" resultType="com.lc.clock.pojo.Role">
+    select r.* from role r , user_role ur
+    where ur.rid = r.id and ur.uid = #{id}
   </select>
 
 </mapper>

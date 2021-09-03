@@ -3,7 +3,7 @@
 <mapper namespace="com.lc.clock.dao.ClockMapper">
   <resultMap id="BaseResultMap" type="com.lc.clock.pojo.Clock">
     <id column="id" jdbcType="BIGINT" property="id" />
-    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
     <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
     <result column="clock_time" jdbcType="DECIMAL" property="clockTime" />
@@ -16,7 +16,7 @@
     <result column="sun_time" jdbcType="DECIMAL" property="sunTime" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, nickname, start_time, end_time, clock_time, mon_time, tue_time, wed_time, thu_time, 
+    id, username, start_time, end_time, clock_time, mon_time, tue_time, wed_time, thu_time, 
     fri_time, sat_time, sun_time
   </sql>
   <insert id="insertSelective" parameterType="com.lc.clock.pojo.Clock">
@@ -25,8 +25,8 @@
       <if test="id != null">
         id,
       </if>
-      <if test="nickname != null">
-        nickname,
+      <if test="username != null">
+        username,
       </if>
       <if test="startTime != null">
         start_time,
@@ -63,8 +63,8 @@
       <if test="id != null">
         #{id,jdbcType=BIGINT},
       </if>
-      <if test="nickname != null">
-        #{nickname,jdbcType=VARCHAR},
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
       </if>
       <if test="startTime != null">
         #{startTime,jdbcType=TIMESTAMP},
@@ -101,8 +101,8 @@
   <update id="updateByPrimaryKeySelective" parameterType="com.lc.clock.pojo.Clock">
     update t_clock
     <set>
-      <if test="nickname != null">
-        nickname = #{nickname,jdbcType=VARCHAR},
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
       </if>
       <if test="startTime != null">
         start_time = #{startTime,jdbcType=TIMESTAMP},
@@ -139,9 +139,9 @@
   </update>
 
   <!--以上为自动生成，以下为项目所需-->
-  <update id="updateClockById" parameterType="com.lc.clock.pojo.Clock">
+  <update id="updateClock" parameterType="com.lc.clock.pojo.Clock">
     update t_clock
-    set nickname = #{nickname,jdbcType=VARCHAR},
+    set username = #{username,jdbcType=VARCHAR},
         start_time = #{startTime,jdbcType=TIMESTAMP},
         end_time = #{endTime,jdbcType=TIMESTAMP},
         clock_time = #{clockTime,jdbcType=DECIMAL},
@@ -155,12 +155,12 @@
     where id = #{id,jdbcType=BIGINT}
   </update >
   <insert id="addClock" parameterType="com.lc.clock.pojo.Clock">
-    insert into t_clock (id, nickname, start_time,
+    insert into t_clock (id, username, start_time,
                          end_time, clock_time, mon_time,
                          tue_time, wed_time, thu_time,
                          fri_time, sat_time, sun_time
     )
-    values (#{id,jdbcType=BIGINT}, #{nickname,jdbcType=VARCHAR}, #{startTime,jdbcType=TIMESTAMP},
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{startTime,jdbcType=TIMESTAMP},
             #{endTime,jdbcType=TIMESTAMP}, #{clockTime,jdbcType=DECIMAL}, #{monTime,jdbcType=DECIMAL},
             #{tueTime,jdbcType=DECIMAL}, #{wedTime,jdbcType=DECIMAL}, #{thuTime,jdbcType=DECIMAL},
             #{friTime,jdbcType=DECIMAL}, #{satTime,jdbcType=DECIMAL}, #{sunTime,jdbcType=DECIMAL}
@@ -170,11 +170,11 @@
     select
     <include refid="Base_Column_List" />
     from t_clock
-    where nickname = #{nickname,jdbcType=VARCHAR}
+    where username = #{username,jdbcType=VARCHAR}
   </select>
   <delete id="deleteClock" parameterType="java.lang.String">
     delete from t_clock
-    where nickname = #{nickname,jdbcType=VARCHAR}
+    where username = #{username,jdbcType=VARCHAR}
   </delete>
   <select id="findAllClock" resultMap="BaseResultMap">
     select

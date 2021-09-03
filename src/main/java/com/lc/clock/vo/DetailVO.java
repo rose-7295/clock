@@ -19,6 +19,8 @@ public class DetailVO {
 
     private Integer online;
 
+    private String avatar;
+
     private BigDecimal allTime;
 
     private BigDecimal finishTime;

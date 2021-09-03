@@ -22,4 +22,12 @@ public class ResultVOUtil {
         resultVO.setMsg(msg);
         return resultVO;
     }
+
+    public static ResultVO error(Integer status, String msg){
+        ResultVO resultVO = new ResultVO();
+        resultVO.setStatus(status);
+        resultVO.setMsg(msg);
+        return resultVO;
+    }
+
 }

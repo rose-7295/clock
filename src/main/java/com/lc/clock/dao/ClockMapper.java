@@ -19,16 +19,16 @@ public interface ClockMapper {
     int updateByPrimaryKey(Clock record);*/
 
     //更新打卡表
-    int updateClockById(Clock clock);
+    int updateClock(Clock clock);
 
     //注册用户时，需要增加打卡表
     int addClock(Clock clock);
 
     //查找打卡表
-    Clock selectClock(String nickname);
+    Clock selectClock(String username);
 
     //删除打卡表
-    int deleteClock(String nickname);
+    int deleteClock(String username);
 
     //获取所有打卡表
     List<Clock> findAllClock();
