@@ -1,0 +1,293 @@
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 2145 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1548 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@204f1362, org.springframework.security.web.context.SecurityContextPersistenceFilter@837ec38, org.springframework.security.web.header.HeaderWriterFilter@4c6dc9c9, org.springframework.security.web.authentication.logout.LogoutFilter@14fae92f, com.lc.clock.config.LoginFilter@3b1323a5, org.springframework.security.web.session.ConcurrentSessionFilter@3400c28e, org.springframework.security.web.session.ConcurrentSessionFilter@639cc35d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78d97f21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6674414e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@82124b9, org.springframework.security.web.session.SessionManagementFilter@7cd5efd6, org.springframework.security.web.access.ExceptionTranslationFilter@f8446, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5179e67e]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.889 seconds (JVM running for 4.895)
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 5932 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1682 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11100e67, org.springframework.security.web.context.SecurityContextPersistenceFilter@3128fec0, org.springframework.security.web.header.HeaderWriterFilter@643b7d15, org.springframework.security.web.authentication.logout.LogoutFilter@3ea224ff, com.lc.clock.config.LoginFilter@3e7db12b, org.springframework.security.web.session.ConcurrentSessionFilter@1a5702eb, org.springframework.security.web.session.ConcurrentSessionFilter@6ebbcd33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58ef2f33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f05341b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d141ea8, org.springframework.security.web.session.SessionManagementFilter@413c90ae, org.springframework.security.web.access.ExceptionTranslationFilter@25578a10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4527b996]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.784 seconds (JVM running for 4.742)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /sr1/red
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cb38048 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3247b972 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72b6ceb2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b850baa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2dc2d183 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22416160 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6646e8c4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@552d67fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ed8fa12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@473bdcc8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m43s703ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m31s693ms).
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42b09ef7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17d373b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@239d4b15 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2771c31 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fd09bbb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c7a50d9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@420805be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32372bdb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7dcfdfe4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@803ca7b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b1d1a39 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1af3db29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35482059 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c7ccc9d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37004243 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43bee612 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a0580c2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b217fad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@231c5d31 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79b0db86 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5eebf437 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s235ms), soft-evicting connections from pool.
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s585ms).
+HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s98ms), soft-evicting connections from pool.
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m38s453ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s553ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s940ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s945ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m7s9ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s18ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s955ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s910ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s974ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m16s65ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s544ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s907ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s925ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s814ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m683ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h43m35s823ms).
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 3460 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2084 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d9abda4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4348308a, org.springframework.security.web.header.HeaderWriterFilter@7f28539a, org.springframework.security.web.authentication.logout.LogoutFilter@108a7ee7, com.lc.clock.config.LoginFilter@613b7c7f, org.springframework.security.web.session.ConcurrentSessionFilter@654581d0, org.springframework.security.web.session.ConcurrentSessionFilter@2e6ab9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c801056, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@694847d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@971ce8c, org.springframework.security.web.session.SessionManagementFilter@35c544f8, org.springframework.security.web.access.ExceptionTranslationFilter@429f911, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@661046af]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.703 seconds (JVM running for 5.711)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /favicon.ico
+No mapping for GET /sophomore
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1be4f2e7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64084860 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@195a1b00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fd4aa93 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21519b20 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6fc2a456 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66514980 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7728edde (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3630662e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27f185ac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e76cbbf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d870cb6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31f6bf61 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43add5a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5809b50b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e3973b1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@562e2ce3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+No mapping for GET /babel/parser/lib/index.js
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f56879a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+No mapping for GET /babel/parser/lib/index.js
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@133bef91 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41dc6cda (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 23436 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1430 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76ce0fb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@24e9e8e3, org.springframework.security.web.header.HeaderWriterFilter@6ffdf511, org.springframework.security.web.authentication.logout.LogoutFilter@7e958c28, com.lc.clock.config.LoginFilter@4bb298b9, org.springframework.security.web.session.ConcurrentSessionFilter@162a5ade, org.springframework.security.web.session.ConcurrentSessionFilter@43c2a148, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54a92064, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1621a59b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@147c6e6d, org.springframework.security.web.session.SessionManagementFilter@a5633f4, org.springframework.security.web.access.ExceptionTranslationFilter@1060f974, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54ed0acd]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.771 seconds (JVM running for 4.887)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 14 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 25022 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1393 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [1964F1C60D369DB1B0C8E87A639FE149]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40b02934, org.springframework.security.web.context.SecurityContextPersistenceFilter@50f1ada1, org.springframework.security.web.header.HeaderWriterFilter@f301c15, org.springframework.security.web.authentication.logout.LogoutFilter@2166a0c7, com.lc.clock.config.LoginFilter@4bb298b9, org.springframework.security.web.session.ConcurrentSessionFilter@7ce4e276, org.springframework.security.web.session.ConcurrentSessionFilter@107d70c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b24902a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@419b8aa2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7531e4da, org.springframework.security.web.session.SessionManagementFilter@60c4709d, org.springframework.security.web.access.ExceptionTranslationFilter@5ea38507, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b6d53f5]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 3.31 seconds (JVM running for 4.201)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 25325 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2364 ms
+Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [1964F1C60D369DB1B0C8E87A639FE149]
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40b02934, org.springframework.security.web.context.SecurityContextPersistenceFilter@50f1ada1, org.springframework.security.web.header.HeaderWriterFilter@f301c15, org.springframework.security.web.authentication.logout.LogoutFilter@2166a0c7, com.lc.clock.config.LoginFilter@4bb298b9, org.springframework.security.web.session.ConcurrentSessionFilter@7ce4e276, org.springframework.security.web.session.ConcurrentSessionFilter@107d70c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b24902a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@419b8aa2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7531e4da, org.springframework.security.web.session.SessionManagementFilter@60c4709d, org.springframework.security.web.access.ExceptionTranslationFilter@5ea38507, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b6d53f5]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.793 seconds (JVM running for 5.721)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+No mapping for GET /favicon.ico
+No mapping for GET /sr1/red
+No mapping for GET /favicon.ico
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2103624e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c4624a7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58068f4b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+No mapping for GET /sr1/red
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@530e1991 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@20717b84 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a182378 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@232da8fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a849a20 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16208f1d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16e0a255 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@743fb304 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d3c4ff9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69972918 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

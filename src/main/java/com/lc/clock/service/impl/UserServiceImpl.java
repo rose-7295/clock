@@ -10,6 +10,7 @@ import com.lc.clock.pojo.Week;
 import com.lc.clock.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -85,6 +86,10 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional(rollbackFor = {})
     public int register(String nickname, String username, Integer grade, String password) {
+        int result = 0;
+        if (userMapper.selectByUsername(username) != null) {
+            result = 2;
+        }
         User user = new User(nickname, username, password, grade);
         user.setEnabled(true);
         if (user.getGrade() == 0) {
@@ -99,7 +104,7 @@ public class UserServiceImpl implements UserService {
         String encodedPwd = encoder.encode(user.getPassword());
         user.setPassword(encodedPwd);
 
-        int result = userMapper.insertSelective(user);
+        result = userMapper.insertSelective(user);
 
         if (result == 1) {
             // 创建打卡表

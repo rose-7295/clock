@@ -170,8 +170,10 @@ public class UserController {
             log.error("【开始打卡】失败，打卡表中无该用户数据");
             return ResultVOUtil.error("打卡失败！不存在该用户");
         }
-        if (!IpUtil.isLecIP(request)) {
+        if (IpUtil.isLecIP(request) == 0) {
             return ResultVOUtil.error(2, "请连接LC_new / LC_new_5G!");
+        } else if (IpUtil.isLecIP(request) == 2) {
+            return ResultVOUtil.error(3, "请打开浏览器权限");
         }
         /*更新打卡表*/
         Date date = new Date();//获取当前时间
@@ -199,8 +201,10 @@ public class UserController {
             return ResultVOUtil.error("结束打卡失败！不存在该用户");
         }
 
-        if (!IpUtil.isLecIP(request)) {
+        if (IpUtil.isLecIP(request) == 0) {
             return ResultVOUtil.error(2, "请连接LC_new / LC_new_5G!");
+        } else if (IpUtil.isLecIP(request) == 2) {
+            return ResultVOUtil.error(3, "请打开浏览器权限");
         }
 
         /*更新打卡表*/

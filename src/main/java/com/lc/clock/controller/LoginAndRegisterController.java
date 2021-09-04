@@ -5,8 +5,10 @@ import com.lc.clock.pojo.User;
 import com.lc.clock.service.impl.UserServiceImpl;
 import com.lc.clock.utils.RespBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
@@ -32,12 +34,16 @@ public class LoginAndRegisterController {
 //    需要在SecurityConfig里配置，否则因为权限管理会被拦截
 
     @PostMapping("/regis")
-    public RespBean<User> register(@RequestParam("nickname") String nickname,
+    public RespBean<User> register(HttpServletRequest request,
+                                   @RequestParam("nickname") String nickname,
                                    @RequestParam("username") String username,
                                    @RequestParam("grade") Integer grade,
                                    @RequestParam("password") String password) {
-        if (userService.register(nickname, username, grade, password) == 1) {
+        int register = userService.register(nickname, username, grade, password);
+        if (register == 1) {
             return RespBean.ok("注册成功");
+        } else if (register == 2) {
+            return RespBean.error("用户名已存在!");
         }
         return RespBean.error("注册失败!");
     }

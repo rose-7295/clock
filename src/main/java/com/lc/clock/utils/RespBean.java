@@ -58,6 +58,13 @@ public class RespBean<T> implements Serializable {
         return respBean;
     }
 
+    public static <T> RespBean<T> error(Integer code, String msg) {
+        RespBean<T> respBean = new RespBean<>();
+        respBean.setStatus(code);
+        respBean.setMsg(msg);
+        respBean.setData(null);
+        return respBean;
+    }
 
 }
 
