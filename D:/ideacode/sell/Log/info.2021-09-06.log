@@ -1,0 +1,58 @@
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 51901 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1748 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53aad5e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e66cdd0, org.springframework.security.web.header.HeaderWriterFilter@6ebbcd33, org.springframework.security.web.authentication.logout.LogoutFilter@579454e, com.lc.clock.config.LoginFilter@53906a, org.springframework.security.web.session.ConcurrentSessionFilter@3320e0d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d40b146, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@569fcce7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5668445b, org.springframework.security.web.session.SessionManagementFilter@6c66445b, org.springframework.security.web.access.ExceptionTranslationFilter@11100e67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@324297d]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.766 seconds (JVM running for 5.597)
+Starting ClockApplication using Java 12.0.1 on chaichaikuailemeiyitiandeMacBook-Pro.local with PID 54701 (/Users/fine/Downloads/clock/target/classes started by fine in /Users/fine/Downloads/clock)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Tomcat initialized with port(s): 8082 (http)
+Initializing ProtocolHandler ["http-nio-8082"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.52]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1675 ms
+Will secure Ant [pattern='/login'] with []
+Will secure Ant [pattern='/regis'] with []
+Will secure Ant [pattern='/verifyCode'] with []
+Will secure Ant [pattern='/css/**'] with []
+Will secure Ant [pattern='/js/**'] with []
+Will secure Ant [pattern='/index.html'] with []
+Will secure Ant [pattern='/img/**'] with []
+Will secure Ant [pattern='/fonts/**'] with []
+Will secure Ant [pattern='/favicon.ico'] with []
+Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c03c9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@453b51f9, org.springframework.security.web.header.HeaderWriterFilter@1c5ad238, org.springframework.security.web.authentication.logout.LogoutFilter@3c16efd, com.lc.clock.config.LoginFilter@45c4879f, org.springframework.security.web.session.ConcurrentSessionFilter@1281ca2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70c7d0a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446fdbdf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@599af84b, org.springframework.security.web.session.SessionManagementFilter@6db2cce0, org.springframework.security.web.access.ExceptionTranslationFilter@1a549af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7af047d2]
+Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8082"]
+Tomcat started on port(s): 8082 (http) with context path ''
+Started ClockApplication in 4.193 seconds (JVM running for 6.55)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 27 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s441ms).
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.

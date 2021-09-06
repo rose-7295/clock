@@ -29,7 +29,10 @@ public class IpUtil {
 
 
 
+
         String ip = request.getHeader("LOCAL-IP");
+        System.out.println(ip);
+        System.out.println(ip.equals(md5Ip));
         if ("offRTC".equals(ip)) {
             // 没有打开浏览器权限
             return 2;

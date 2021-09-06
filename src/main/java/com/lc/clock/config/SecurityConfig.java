@@ -191,16 +191,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     }
                 });
 
-        // 多端登录踢下线
-        http.addFilterAt(new ConcurrentSessionFilter(sessionRegistry(), event -> {
-            HttpServletResponse resp = event.getResponse();
-            resp.setContentType("application/json;charset=utf-8");
-            resp.setStatus(401);
-            PrintWriter out = resp.getWriter();
-            out.write(new ObjectMapper().writeValueAsString(RespBean.error("您已在另一台设备登录，本次登录已下线!")));
-            out.flush();
-            out.close();
-        }), ConcurrentSessionFilter.class);
+//        // 多端登录踢下线
+//        http.addFilterAt(new ConcurrentSessionFilter(sessionRegistry(), event -> {
+//            HttpServletResponse resp = event.getResponse();
+//            resp.setContentType("application/json;charset=utf-8");
+//            resp.setStatus(401);
+//            PrintWriter out = resp.getWriter();
+//            out.write(new ObjectMapper().writeValueAsString(RespBean.error("您已在另一台设备登录，本次登录已下线!")));
+//            out.flush();
+//            out.close();
+//        }), ConcurrentSessionFilter.class);
         // 把自定义的登录过滤器加入到这里面来
         http.addFilterAt(loginFilter(), UsernamePasswordAuthenticationFilter.class);
     }

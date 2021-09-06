@@ -358,7 +358,7 @@ public class UserController {
     @GetMapping("/clean")
     public ResultVO clean() throws ParseException {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date first = dateFormat.parse("2021-08-12 00:00:00");
+        Date first = dateFormat.parse("2021-08-30 00:00:00");
         Date date = new Date();
         //两个时间点之间差了多少天
         long time = (date.getTime() - first.getTime()) / (1000 * 60 * 60 * 24);
